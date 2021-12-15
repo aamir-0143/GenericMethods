@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GenericMethods 
+namespace GenericMethods
 {
-    public class MaximumNumber<T> where T : IComparable 
+    public class MaximumNumber<T> where T : IComparable
     {
-
         public T MaxMethod(T[] value)
         {
             var max = MaxValue(value);
@@ -25,11 +24,11 @@ namespace GenericMethods
             return sorted_value[sorted_value.Length - 1];
         }
 
-        public void PrintMaxValue(T[] value)
+        public T PrintMaxValue(T[] value)
         {
             var max = MaxValue(value);
-            Console.WriteLine("Maximum value is: " + max);
+            Console.WriteLine("Maximum value is" + max);
+            return max;
         }
     }
-
 }

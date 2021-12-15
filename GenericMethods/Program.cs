@@ -1,7 +1,8 @@
-﻿using GenericMethods;
-
-class program
-{
+﻿using System;
+namespace GenericMethods
+{ 
+  class program
+  {
     static void Main(string[] args)
     {
         Console.WriteLine("Find Maximum Number!");
@@ -12,4 +13,5 @@ class program
 
 
     }
+  }
 }
