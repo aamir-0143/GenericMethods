@@ -27,7 +27,7 @@ namespace GenericMethods
         public T PrintMaxValue(T[] value)
         {
             var max = MaxValue(value);
-            Console.WriteLine("Maximum value is" + max);
+            Console.WriteLine("Maximum value is " + max);
             return max;
         }
     }
